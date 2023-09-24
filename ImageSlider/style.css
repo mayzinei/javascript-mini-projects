@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.box {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: lightgreen;
+}
+.img {
+	width: 60%;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.273);
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	background: lightsalmon;
+	border-radius: 15px;
+	font-size: 20px;
+}
